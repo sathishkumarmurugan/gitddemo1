@@ -1,0 +1,5 @@
+node{
+    stage("code_pull"){
+        git 'https://github.com/sathishkumarmurugan/gitddemo1.git'
+    }
+}
